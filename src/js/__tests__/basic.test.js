@@ -7,9 +7,9 @@ test('position 1', () => {
     {name: 'archer', health: 80},
     {name: 'mag', health: 100},
   ]
-  const resList = sortHealth(listObjects);
+  sortHealth(listObjects);
 
-  expect(resList).toEqual(
+  expect(listObjects).toEqual(
   [
     {name: 'mag', health: 100},
     {name: 'archer', health: 80},
@@ -24,9 +24,9 @@ test('position 2', () => {
     {name: 'mag', health: 100},
     {name: 'archer', health: 80},
   ]
-  const resList = sortHealth(listObjects);
+  sortHealth(listObjects);
 
-  expect(resList).toEqual(
+  expect(listObjects).toEqual(
   [
     {name: 'mag', health: 100},
     {name: 'archer', health: 80},
@@ -41,9 +41,9 @@ test('position 3', () => {
     {name: 'swordsman', health: 10},
     {name: 'mag', health: 100},
   ]
-  const resList = sortHealth(listObjects);
+  sortHealth(listObjects);
 
-  expect(resList).toEqual(
+  expect(listObjects).toEqual(
   [
     {name: 'mag', health: 100},
     {name: 'archer', health: 80},
@@ -58,9 +58,9 @@ test('position 4', () => {
     {name: 'mag', health: 100},
     {name: 'swordsman', health: 10},
   ]
-  const resList = sortHealth(listObjects);
+  sortHealth(listObjects);
 
-  expect(resList).toEqual(
+  expect(listObjects).toEqual(
   [
     {name: 'mag', health: 100},
     {name: 'archer', health: 80},
@@ -75,9 +75,9 @@ test('position 5', () => {
     {name: 'swordsman', health: 10},
     {name: 'archer', health: 80},
   ]
-  const resList = sortHealth(listObjects);
+  sortHealth(listObjects);
 
-  expect(resList).toEqual(
+  expect(listObjects).toEqual(
   [
     {name: 'mag', health: 100},
     {name: 'archer', health: 80},
@@ -92,9 +92,9 @@ test('position 6', () => {
     {name: 'archer', health: 80},
     {name: 'swordsman', health: 10},
   ]
-  const resList = sortHealth(listObjects);
+  sortHealth(listObjects);
 
-  expect(resList).toEqual(
+  expect(listObjects).toEqual(
   [
     {name: 'mag', health: 100},
     {name: 'archer', health: 80},

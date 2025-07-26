@@ -1,3 +1,7 @@
-import checkHealth from './basic';
+import sortHealth from './basic';
 
-console.log(checkHealth({name: 'Mag', health: 90}));
+console.log(sortHealth([
+  {name: 'swordsman', health: 10},
+  {name: 'mag', health: 100},
+  {name: 'archer', health: 80},
+]));
